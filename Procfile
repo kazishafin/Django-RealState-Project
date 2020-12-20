@@ -1,0 +1,1 @@
+web: gunicorn btrc.wsgi --log-file -

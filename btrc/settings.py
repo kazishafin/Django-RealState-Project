@@ -83,12 +83,14 @@ WSGI_APPLICATION = 'btrc.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'kaziredb',
-        'USER': 'postgres',
-        'PASSWORD': 'theheart',
-        'HOST': 'localhost'
+        'NAME': 'd5odfa89p2hf7u',
+        'USER': 'tbpigrnfugrfcs',
+        'PASSWORD': 'ae295310395c947bc2028815641c39c96d2a43197952b8fa0186ed773d5403fa',
+        'HOST': 'ec2-54-162-207-150.compute-1.amazonaws.com',
+        'PORT': 5432
     }
 }
+
 
 import dj_database_url
 db_from_env = dj_database_url.config(conn_max_age=600)

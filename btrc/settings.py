@@ -28,6 +28,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['kazirealstate.herokuapp.com', '127.0.0.1']
 
+# MIME TYPE
+
+import mimetypes
+mimetypes.add_type("text/css", ".css", True)
+
 
 # Application definition
 
